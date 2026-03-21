@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dariadon/bot/don_c/practice03/task3'
+relocations:     []
+...
