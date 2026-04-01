@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    char *ptr;
+
+    fgets(str, sizeof(str), stdin);
+
+    ptr = str;
+    while (*ptr != '\0') {
+        printf("%c\n", *ptr);
+        ptr++;
+    }
+    return 0;
+}
